@@ -63,7 +63,7 @@ The dashboard was built using the following tools and technologies:
 🧮 Calculated Metrics – LOS (Length of Stay), Encounter Counts, Procedure Rates, etc.
 
 ## 4. Data Sources & Table Structure
-Source: Public dataset from Kaggle
+Data Source: <a href="https://mavenanalytics.io/data-playground/hospital-patient-records"> Hospital Patient Records Dataset </a>
 
 📂 Dataset Contains:
 
