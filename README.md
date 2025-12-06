@@ -3,10 +3,10 @@ A comprehensive Excel-based analytical dashboard designed to deliver actionable 
 
 ## 1. Project Overview
 
-The Hospital Data Analysis Dashboard is a dynamic and interactive Excel reporting solution built to analyze key hospital functions across patient demographics, encounters, procedures, payers, and organizational performance. This dashboard centralizes operational data to help stakeholders monitor clinical efficiency, patient flow, treatment patterns, and payer trends—enabling informed, data-driven decision-making across the healthcare ecosystem.
+The **Hospital Data Analysis Dashboard** is a dynamic and interactive Excel reporting solution built to analyze key hospital functions across patient demographics, encounters, procedures, payers, and organizational performance. This dashboard centralizes operational data to help stakeholders monitor clinical efficiency, patient flow, treatment patterns, and payer trends—enabling informed, data-driven decision-making across the healthcare ecosystem.
 
 ## 2. Purpose & Objectives
-Business Problem
+**Business Problem**
 
 Hospitals generate extensive operational and clinical data, but this information often remains scattered across multiple systems—making it difficult to evaluate performance, optimize resources, or identify improvement opportunities. Administrators, clinicians, and financial teams need a single unified platform to understand:
 
@@ -20,7 +20,7 @@ Trends in admissions, discharge, and treatment ?
 
 Organizational workload and patient demographics ?
 
-## Goal of the Dashboard 
+**Goal of the Dashboard** 
 
 To deliver an easy-to-use visual analytics tool that:
 
@@ -65,7 +65,7 @@ The dashboard was built using the following tools and technologies:
 ## 4. Data Sources & Table Structure
 Data Source: <a href="https://mavenanalytics.io/data-playground/hospital-patient-records"> Hospital Patient Records Dataset </a>
 
-📂 Dataset Contains:
+**Dataset Contains:**
 
 Patients data
 
@@ -77,7 +77,7 @@ Payers/Insurance details
 
 Organisation/Department information
 
-## Relationships:
+**Relationships:**
 
 Patients ↔ Encounters → Procedures
 
@@ -102,7 +102,7 @@ Payer Contribution Summary
 
 Department-Wise Patient Load
 
-##  Interactive Filters
+**Interactive Filters**
 
 Department
 
