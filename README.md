@@ -86,7 +86,7 @@ Encounters → Payers
 Organisation → Encounters / Procedures
 
 ## 5. Dashboard Features & Highlights
- Key Performance Indicators (KPIs)
+ **Key Performance Indicators (KPIs)**
 
 Total Patients
 
