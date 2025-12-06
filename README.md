@@ -56,100 +56,26 @@ The dashboard was built using the following tools and technologies:
 
 🔎 Slicers & Filters – for interactivity
 
-📂 Power Query (Optional) – for data cleaning & transformations
+📂 Power Query  – for data cleaning & transformations
 
 📁 Source Data Format – Excel (.xlsx) tables
 
 🧮 Calculated Metrics – LOS (Length of Stay), Encounter Counts, Procedure Rates, etc.
 
 ## 4. Data Sources & Table Structure
+📌 Source: Public dataset from Kaggle
 
-The dashboard is built on five core tables, each serving a specific function in hospital analytics:
+📂 Dataset Contains:
 
-1. Patients Table
+Patients data
 
-Contains demographic information for each patient.
-Key Fields:
+Encounters (visits/admissions)
 
-Patient_ID
+Procedures
 
-Name
+Payers/Insurance details
 
-Gender
-
-Age
-
-DOB
-
-Contact Details
-
-2. Encounters Table
-
-Captures every patient interaction with the hospital.
-Key Fields:
-
-Encounter_ID
-
-Patient_ID (Linked)
-
-Date of Admission
-
-Date of Discharge
-
-Department / Unit
-
-Encounter Type (IP/OP/ER)
-
-Length of Stay
-
-Physician
-
-3. Procedures Table
-
-Stores all clinical and diagnostic procedures performed.
-Key Fields:
-
-Procedure_ID
-
-Encounter_ID (Linked)
-
-Procedure Type
-
-Category (Surgical/Diagnostic/Therapeutic)
-
-Performing Department
-
-Date Performed
-
-4. Payers Table
-
-Details the financial payer associated with each patient or encounter.
-Key Fields:
-
-Payer_ID
-
-Payer Name (Insurance / Cash / Govt. Scheme)
-
-Encounter_ID (Linked)
-
-Coverage Type
-
-Claim Amount
-
-5. Organisation Table
-
-Maps organizational hierarchy & hospital metadata.
-Key Fields:
-
-Org_ID
-
-Department Name
-
-Capacity
-
-Location
-
-Specialty
+Organisation/Department information
 
 ## Relationships:
 
@@ -189,3 +115,27 @@ Procedure Category
 Date Range
 
 Gender / Age Group
+## 6. Business Impact & Insights
+Operational Insights:
+
+Identify overloaded departments
+
+Optimize resource allocation
+
+Understand admission/discharge efficiency
+
+Clinical Insights:
+
+Analyze common procedures
+
+Track patient care patterns
+
+Plan medical services based on demand
+
+Financial Insights:
+
+Understand payer contribution
+
+Identify high-value patient segments
+
+Improve billing & coverage analysis
